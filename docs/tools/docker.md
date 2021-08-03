@@ -31,3 +31,9 @@
   --restart unless-stopped \
   superng6/aria2
   ```
+
+
+- 百度客户端
+```
+docker run -d --name baidupcs -p 5299:5299 -v /opt/download:/downloads -v /opt/baidupcs/config:/root/.config/BaiduPCS-Go oldiy/baidupcs:latest
+```

@@ -9,7 +9,6 @@
 ## Spring 内置task实现
 
 1. 启动类实现定时任务
-
 ```
 @EnableScheduling //使能任务调度
 @SpringBootApplication
